@@ -4,7 +4,7 @@ const app = express();
 const hostname = '127.0.0.1';
 const port = 3021;
 const sqlite3 = require('sqlite3').verbose();
-const DBPATH = 'projeto.db';
+const DBPATH = '../projeto.db';
 
 app.use(express.json());
 
